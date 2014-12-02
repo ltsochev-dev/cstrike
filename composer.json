@@ -1,0 +1,30 @@
+{
+  "name": "naminator/cstrike",
+  "type": "library",
+  "description": "A simple API for reading CSStats.dat binary data.",
+  "keywords": [
+  "counter-strike",
+  "amxmodx",
+  "csstats",
+  "reader"
+  ],
+  "homepage": "https://github.com/naminator/cstrike",
+  "license": "MIT",
+  "authors": [
+  {
+    "name": "Lachezar Tsochev",
+    "email": "ltsochev@live.com"
+  }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.0"
+      },
+      "autoload": {
+        "psr-4": {
+          "naminator\\cstrike\\": "src"
+        }
+      }
+    }
